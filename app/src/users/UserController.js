@@ -80,12 +80,13 @@
         function UserSheetController( $mdBottomSheet ) {
           this.user = user;
           this.items = [
-            { name: 'Phone'       , icon: 'phone'       , icon_url: 'assets/svg/phone.svg'},
-            { name: 'Twitter'     , icon: 'twitter'     , icon_url: 'assets/svg/twitter.svg'},
-            { name: 'Google+'     , icon: 'google_plus' , icon_url: 'assets/svg/google_plus.svg'},
-            { name: 'Hangout'     , icon: 'hangouts'    , icon_url: 'assets/svg/hangouts.svg'}
+            { name: 'Github'       , icon: 'github'       , icon_url: 'assets/svg/github.svg', urlPath: "https://github.com/hassanabidpk/"},
+            { name: 'Twitter'     , icon: 'twitter'     , icon_url: 'assets/svg/twitter.svg', urlPath: "https://github.com/hassanabidpk/"},
+            { name: 'Google+'     , icon: 'google_plus' , icon_url: 'assets/svg/google_plus.svg', urlPath: "https://github.com/hassanabidpk/"},
+            { name: 'Hangout'     , icon: 'hangouts'    , icon_url: 'assets/svg/hangouts.svg', urlPath: "https://github.com/hassanabidpk/"}
           ];
           this.performAction = function(action) {
+            window.location.href = item.urlPath;
             $mdBottomSheet.hide(action);
           };
         }

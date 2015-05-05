@@ -37,7 +37,7 @@
       {
         name: 'Talks',
         avatar: 'assets/svg/ic_video.svg',
-        content: 'Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Bubbli greplin stypi prezi mzinga heroku wakoopa, shopify airbnb dogster dopplr gooru jumo, reddit plickers edmodo stypi zillow etsy.'
+        content: 'Udacity Study Jam Session in South Korea. From Dec 2014 to Feb 2015 Android developers in South Korea took part in a number of Udacity Study Jam sessions to learn the fundamentals of Android. Listen to +Hassan Abid tell his story at the GDG Android Korea conference about learning from our +Udacity courses and the Korean Google Developers Study Jams. Link : https://youtu.be/rmB4bUEdySk '
       },
       {
         name: 'Blog',
