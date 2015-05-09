@@ -81,12 +81,12 @@
           this.user = user;
           this.items = [
             { name: 'Github'       , icon: 'github'       , icon_url: 'assets/svg/github.svg', urlPath: "https://github.com/hassanabidpk/"},
-            { name: 'Twitter'     , icon: 'twitter'     , icon_url: 'assets/svg/twitter.svg', urlPath: "https://github.com/hassanabidpk/"},
-            { name: 'Google+'     , icon: 'google_plus' , icon_url: 'assets/svg/google_plus.svg', urlPath: "https://github.com/hassanabidpk/"},
-            { name: 'Hangout'     , icon: 'hangouts'    , icon_url: 'assets/svg/hangouts.svg', urlPath: "https://github.com/hassanabidpk/"}
+            { name: 'Twitter'     , icon: 'twitter'     , icon_url: 'assets/svg/twitter.svg', urlPath: "https://twitter.com/hassanabidpk"},
+            { name: 'Google+'     , icon: 'google_plus' , icon_url: 'assets/svg/google_plus.svg', urlPath: "https://plus.google.com/+HassanAbid/"},
+            { name: 'Linkedin'     , icon: 'linkedin'    , icon_url: 'assets/svg/linkedin.svg', urlPath: "https://kr.linkedin.com/pub/hassan-abid/12/700/66b"}
           ];
           this.performAction = function(action) {
-            window.location.href = item.urlPath;
+            window.location.href = action.urlPath;
             $mdBottomSheet.hide(action);
           };
         }

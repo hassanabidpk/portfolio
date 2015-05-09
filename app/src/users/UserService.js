@@ -21,7 +21,7 @@
       },
       {
         name: 'Skills',
-        avatar: 'svg-2',
+        avatar: 'assets/svg/coding.svg',
         content: 'Java, C, Python, PHP, Javascript, Objective-C, Swift, Google Cloud Platform, Shell Scripting'
       },
       {
